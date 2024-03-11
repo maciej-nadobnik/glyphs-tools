@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>☑️ Exporting glyphs</string>
+		<key>predicate</key>
+		<string>export == 1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>🔹 Has Anchors</string>
+		<key>predicate</key>
+		<string>layer0.hasAnchors == 1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>💬 Has Annotations</string>
+		<key>predicate</key>
+		<string>layer0.hasAnnotations == 1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>📦 Has Components</string>
+		<key>predicate</key>
+		<string>layer0.hasComponents == 1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>◾ Has Outlines</string>
+		<key>predicate</key>
+		<string>layer0.countOfPaths &gt; 0</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>↔️ Has PS Hints</string>
+		<key>predicate</key>
+		<string>layer0.hasPostScriptHints == 1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>📶 Has TT Hints</string>
+		<key>predicate</key>
+		<string>layer0.hasTrueTypeHints == 1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>🔠 Has Unicode</string>
+		<key>predicate</key>
+		<string>_hasUnicode == 1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>💲 Has Special Layers</string>
+		<key>predicate</key>
+		<string>hasSpecialLayers == 1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>❗ Incompatible masters</string>
+		<key>predicate</key>
+		<string>mastersCompatible == 0</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>🔘 Is Changed</string>
+		<key>predicate</key>
+		<string>changeCount &gt; 0</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>⚠️ Metrics out of sync</string>
+		<key>predicate</key>
+		<string>_metricsKeysOutOfSync == 1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>🔸 No Anchors</string>
+		<key>predicate</key>
+		<string>layer0.hasAnchors == 0</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>⬜ No Color Label</string>
+		<key>predicate</key>
+		<string>colorIndex == 9223372036854775807</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>⬜ No Components</string>
+		<key>predicate</key>
+		<string>layer0.hasComponents == 0</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>*️⃣ No Unicode</string>
+		<key>predicate</key>
+		<string>_hasUnicode == 0</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>⬜ No Outlines</string>
+		<key>predicate</key>
+		<string>layer0.countOfPaths == 0</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>⬜ No Shapes</string>
+		<key>predicate</key>
+		<string>layer0.countOfPaths == 0 AND layer0.countOfComponents == 0</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>🚫 Non-exporting</string>
+		<key>predicate</key>
+		<string>export == 0</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>🔴 Red</string>
+		<key>predicate</key>
+		<string>colorIndex == 0</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>🟠 Orange</string>
+		<key>predicate</key>
+		<string>colorIndex == 1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>🟡 Yellow</string>
+		<key>predicate</key>
+		<string>colorIndex == 3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>🟢 Light Green</string>
+		<key>predicate</key>
+		<string>colorIndex == 4</string>
+	</dict>
+</array>
+</plist>
